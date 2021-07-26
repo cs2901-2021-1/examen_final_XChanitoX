@@ -3,5 +3,5 @@ projectKey=cs2901-2021-1_examen_final_XChanitoX
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.22079
 dashboardUrl=https://sonarcloud.io/dashboard?id=cs2901-2021-1_examen_final_XChanitoX
-ceTaskId=AXrk_tGUHzp72HS2jvf_
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXrk_tGUHzp72HS2jvf_
+ceTaskId=AXrlJrcyZdDi_X7Y07MW
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXrlJrcyZdDi_X7Y07MW

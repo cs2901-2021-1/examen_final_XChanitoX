@@ -1,31 +1,52 @@
 
-0vacunacion.AplicativoVacunacion#numeroCentros()IÜ
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java- -("1*â	
-1Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java. .(‡
-›
-Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java. .(
-%0java.util.List"__id*6*4!
-vacunacion.AplicativoVacunacion"
-centrosDeAltaœÃ
-Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java. .(#	
-%1int"java.util.List#size()I*
+1vacunacion.CentroVacunacion#cantidadVacunadosE()IÇ
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.javaP P(!"6*¢
+2Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.javaR R(∑
+¥
+Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.javaR R(
+vacunadovacunacion.Vacunado"__id*
+""’
+“
+Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.javaR R(
+vacunadovacunacion.Vacunado"
+__arrayGet*
 
-%0java.util.List2size()ﬂ
-‹
-Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java.& .(2
-%2java.util.List"__id*5*3!
-vacunacion.AplicativoVacunacion"
-centroDeBajaœÃ
-Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java.& .(9	
-%3int"java.util.List#size()I*
-
-%2java.util.List2size()"ë
-Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java. .(:
-""B#!
-vacunacion.AplicativoVacunacion
+%0java.util.List*
+""*
+5
+1*Ò
+4Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.javaS, S(4·ﬁ
+Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.javaS, S(>	
+%2int"vacunacion.Vacunado#getEdad()I*!
+
+vacunadovacunacion.Vacunado2	getEdad()*
+2*Ù
+5Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.javaS S(·ﬁ
+Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.javaS S("	
+%1int"vacunacion.Vacunado#getEdad()I*!
+
+vacunadovacunacion.Vacunado2	getEdad()*
+2
+4*È
+6Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.javaR! R(/Ÿ
+÷
+Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.javaR! R(/
+%0java.util.List"__id*3*1
+vacunacion.CentroVacunacion"
+listaVacunados*
+2*ò
+1Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.javaW W( "ç
+Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.javaW W(!
+""B
+vacunacion.CentroVacunacion

@@ -49,6 +49,7 @@ public class AplicativoVacunacionTest {
         app.darDeAlta(centro3);
         app.darDeAlta(centro4);
         app.darDeAlta(centro5);
+        app.porcentajeVacunadosPorEdad();
 
         app.darDeBaja(centro3);
 

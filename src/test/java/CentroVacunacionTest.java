@@ -6,7 +6,7 @@ import vacunacion.Vacunado;
 public class CentroVacunacionTest {
     @Test
     public void agregarVacunado(){
-        var vacunado1 = new Vacunado();
+        var vacunado1 = new Vacunado(39);
         var centro = new CentroVacunacion("CentroA");
         centro.agregarVacunado(vacunado1);
         Assert.assertEquals(centro.cantidadVacunados(), 1);
@@ -14,7 +14,7 @@ public class CentroVacunacionTest {
 
     @Test
     public void cantidadVacunadosParciales(){
-        var vacunado1 = new Vacunado();
+        var vacunado1 = new Vacunado(39);
         var centro = new CentroVacunacion("CentroA");
         centro.agregarVacunado(vacunado1);
         Assert.assertEquals(centro.cantidadVacunadosParciales(), 1);
@@ -22,7 +22,7 @@ public class CentroVacunacionTest {
 
     @Test
     public void cantidadVacunadosCompletamente(){
-        var vacunado1 = new Vacunado();
+        var vacunado1 = new Vacunado(39);
         var centro = new CentroVacunacion("CentroA");
         centro.agregarVacunado(vacunado1);
         vacunado1.segundaDosis();

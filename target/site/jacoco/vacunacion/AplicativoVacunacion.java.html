@@ -4,89 +4,128 @@ import java.util.logging.Logger;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AplicativoVacunacion{
-<span class="fc" id="L8">    private List&lt;CentroVacunacion&gt; centrosDeAlta = new ArrayList&lt;&gt;();</span>
-<span class="fc" id="L9">    private List&lt;CentroVacunacion&gt; centroDeBaja = new ArrayList&lt;&gt;();</span>
 
-<span class="fc" id="L11">    static final Logger logger = Logger.getLogger(AplicativoVacunacion.class.getName());</span>
+public class AplicativoVacunacion{
+<span class="fc" id="L9">    private List&lt;CentroVacunacion&gt; centrosDeAlta = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L10">    private List&lt;CentroVacunacion&gt; centroDeBaja = new ArrayList&lt;&gt;();</span>
+
+<span class="fc" id="L12">    static final Logger logger = Logger.getLogger(AplicativoVacunacion.class.getName());</span>
 
     private static AplicativoVacunacion instance;
-<span class="fc" id="L14">    private AplicativoVacunacion(){}</span>
+<span class="fc" id="L15">    private AplicativoVacunacion(){}</span>
 
     public static AplicativoVacunacion getInstance(){
-<span class="pc bpc" id="L17" title="1 of 2 branches missed.">        if (instance == null)</span>
-<span class="fc" id="L18">            instance = new AplicativoVacunacion();</span>
-<span class="fc" id="L19">        return instance;</span>
+<span class="pc bpc" id="L18" title="1 of 2 branches missed.">        if (instance == null)</span>
+<span class="fc" id="L19">            instance = new AplicativoVacunacion();</span>
+<span class="fc" id="L20">        return instance;</span>
     }
 
     public double avanceVacunacion(){
-<span class="fc" id="L23">        double cantidadTotalVacunados = 0;</span>
-<span class="fc" id="L24">        double porcentajeVacunados = 0;</span>
-<span class="fc bfc" id="L25" title="All 2 branches covered.">        for (CentroVacunacion centro: centrosDeAlta){</span>
-<span class="fc" id="L26">            cantidadTotalVacunados = cantidadTotalVacunados + centro.cantidadVacunados();</span>
-<span class="fc" id="L27">        }</span>
-<span class="fc" id="L28">        porcentajeVacunados = (cantidadTotalVacunados / 22935533)*100;</span>
-<span class="fc" id="L29">        return porcentajeVacunados;</span>
+<span class="fc" id="L24">        double cantidadTotalVacunados = 0;</span>
+<span class="fc" id="L25">        double porcentajeVacunados = 0;</span>
+<span class="fc bfc" id="L26" title="All 2 branches covered.">        for (CentroVacunacion centro: centrosDeAlta){</span>
+<span class="fc" id="L27">            cantidadTotalVacunados = cantidadTotalVacunados + centro.cantidadVacunados();</span>
+<span class="fc" id="L28">        }</span>
+<span class="fc" id="L29">        porcentajeVacunados = (cantidadTotalVacunados / 22935533)*100;</span>
+<span class="fc" id="L30">        return porcentajeVacunados;</span>
     }
 
     public double coberturaVacunacion(){
-<span class="fc" id="L33">        double cantidadTotalVacunadosCompletamente = 0;</span>
-<span class="fc" id="L34">        double porcentajeVacunadosParciales = 0;</span>
+<span class="fc" id="L34">        double cantidadTotalVacunadosCompletamente = 0;</span>
+<span class="fc" id="L35">        double porcentajeVacunadosParciales = 0;</span>
 
-<span class="fc bfc" id="L36" title="All 2 branches covered.">        for (CentroVacunacion centro: centrosDeAlta){</span>
-<span class="fc" id="L37">            cantidadTotalVacunadosCompletamente = cantidadTotalVacunadosCompletamente + centro.cantidadVacunadosCompletamente();</span>
-<span class="fc" id="L38">        }</span>
+<span class="fc bfc" id="L37" title="All 2 branches covered.">        for (CentroVacunacion centro: centrosDeAlta){</span>
+<span class="fc" id="L38">            cantidadTotalVacunadosCompletamente = cantidadTotalVacunadosCompletamente + centro.cantidadVacunadosCompletamente();</span>
+<span class="fc" id="L39">        }</span>
 
-<span class="fc" id="L40">        porcentajeVacunadosParciales = (cantidadTotalVacunadosCompletamente/22935533)*100;</span>
+<span class="fc" id="L41">        porcentajeVacunadosParciales = (cantidadTotalVacunadosCompletamente/22935533)*100;</span>
 
-<span class="fc" id="L42">        return porcentajeVacunadosParciales;</span>
+<span class="fc" id="L43">        return porcentajeVacunadosParciales;</span>
     }
 
     public int numeroCentros(){
-<span class="fc" id="L46">        return centrosDeAlta.size() + centroDeBaja.size();</span>
+<span class="fc" id="L47">        return centrosDeAlta.size() + centroDeBaja.size();</span>
     }
 
     public int cantidadVacunadosParcialmente(){
-<span class="fc" id="L50">        int cantidadTotalVacunadosParciales = 0;</span>
+<span class="fc" id="L51">        int cantidadTotalVacunadosParciales = 0;</span>
 
-<span class="fc bfc" id="L52" title="All 2 branches covered.">        for (CentroVacunacion centro: centrosDeAlta){</span>
-<span class="fc" id="L53">            cantidadTotalVacunadosParciales = cantidadTotalVacunadosParciales + centro.cantidadVacunadosParciales();</span>
-<span class="fc" id="L54">        }</span>
+<span class="fc bfc" id="L53" title="All 2 branches covered.">        for (CentroVacunacion centro: centrosDeAlta){</span>
+<span class="fc" id="L54">            cantidadTotalVacunadosParciales = cantidadTotalVacunadosParciales + centro.cantidadVacunadosParciales();</span>
+<span class="fc" id="L55">        }</span>
 
-<span class="fc" id="L56">        return cantidadTotalVacunadosParciales;</span>
+<span class="fc" id="L57">        return cantidadTotalVacunadosParciales;</span>
     }
 
     public int cantidadVacunadosCompletamente(){
-<span class="fc" id="L60">        int cantidadTotalVacunadosCompletamente = 0;</span>
+<span class="fc" id="L61">        int cantidadTotalVacunadosCompletamente = 0;</span>
 
-<span class="fc bfc" id="L62" title="All 2 branches covered.">        for (CentroVacunacion centro: centrosDeAlta){</span>
-<span class="fc" id="L63">            cantidadTotalVacunadosCompletamente = cantidadTotalVacunadosCompletamente + centro.cantidadVacunadosCompletamente();</span>
-<span class="fc" id="L64">        }</span>
+<span class="fc bfc" id="L63" title="All 2 branches covered.">        for (CentroVacunacion centro: centrosDeAlta){</span>
+<span class="fc" id="L64">            cantidadTotalVacunadosCompletamente = cantidadTotalVacunadosCompletamente + centro.cantidadVacunadosCompletamente();</span>
+<span class="fc" id="L65">        }</span>
 
-<span class="fc" id="L66">        return cantidadTotalVacunadosCompletamente;</span>
+<span class="fc" id="L67">        return cantidadTotalVacunadosCompletamente;</span>
     }
 
     public void anhadirCentro(CentroVacunacion nuevoCentro){
-<span class="fc" id="L70">        this.centroDeBaja.add(nuevoCentro);</span>
-<span class="fc" id="L71">    }</span>
+<span class="fc" id="L71">        this.centroDeBaja.add(nuevoCentro);</span>
+<span class="fc" id="L72">    }</span>
 
     public void darDeAlta(CentroVacunacion centro){
-<span class="fc" id="L74">        this.centrosDeAlta.add(centro);</span>
-<span class="fc" id="L75">        this.centroDeBaja.remove(centro);</span>
-<span class="fc" id="L76">    }</span>
+<span class="fc" id="L75">        this.centrosDeAlta.add(centro);</span>
+<span class="fc" id="L76">        this.centroDeBaja.remove(centro);</span>
+<span class="fc" id="L77">    }</span>
 
     public void darDeBaja(CentroVacunacion centro){
-<span class="fc" id="L79">        this.centroDeBaja.add(centro);</span>
-<span class="fc" id="L80">        this.centrosDeAlta.remove(centro);</span>
-<span class="fc" id="L81">    }</span>
+<span class="fc" id="L80">        this.centroDeBaja.add(centro);</span>
+<span class="fc" id="L81">        this.centrosDeAlta.remove(centro);</span>
+<span class="fc" id="L82">    }</span>
 
     public int numeroCentrosDeAlta(){
-<span class="fc" id="L84">        return centrosDeAlta.size();</span>
+<span class="fc" id="L85">        return centrosDeAlta.size();</span>
     }
 
+    public void porcentajeVacunadosPorEdad(){
+<span class="fc" id="L89">        int vacunadosA = 0;</span>
+<span class="fc" id="L90">        int vacunadosB = 0;</span>
+<span class="fc" id="L91">        int vacunadosC = 0;</span>
+<span class="fc" id="L92">        int vacunadosD = 0;</span>
+<span class="fc" id="L93">        int vacunadosE = 0;</span>
+<span class="fc" id="L94">        int vacunadosF = 0;</span>
+
+<span class="fc bfc" id="L96" title="All 2 branches covered.">        for (CentroVacunacion centro: centrosDeAlta){</span>
+<span class="fc" id="L97">            vacunadosA += centro.cantidadVacunadosA();</span>
+<span class="fc" id="L98">            vacunadosB += centro.cantidadVacunadosB();</span>
+<span class="fc" id="L99">            vacunadosC += centro.cantidadVacunadosC();</span>
+<span class="fc" id="L100">            vacunadosD += centro.cantidadVacunadosD();</span>
+<span class="fc" id="L101">            vacunadosE += centro.cantidadVacunadosE();</span>
+<span class="fc" id="L102">            vacunadosF += centro.cantidadVacunadosF();</span>
+<span class="fc" id="L103">        }</span>
+
+<span class="fc" id="L105">        String cadena = vacunadosA+&quot;&quot;;</span>
+<span class="fc" id="L106">        String mensajeA = &quot;Porcentaje vacunados [18 - 39]: &quot; + cadena;</span>
+<span class="fc" id="L107">        cadena = vacunadosB+&quot;&quot;;</span>
+<span class="fc" id="L108">        String mensajeB = &quot;Porcentaje vacunados [40 - 49]: &quot; + cadena;</span>
+<span class="fc" id="L109">        cadena = vacunadosC+&quot;&quot;;</span>
+<span class="fc" id="L110">        String mensajeC = &quot;Porcentaje vacunados [50 - 59]: &quot; + cadena;</span>
+<span class="fc" id="L111">        cadena = vacunadosD+&quot;&quot;;</span>
+<span class="fc" id="L112">        String mensajeD = &quot;Porcentaje vacunados [60 - 69]: &quot; + cadena;</span>
+<span class="fc" id="L113">        cadena = vacunadosE+&quot;&quot;;</span>
+<span class="fc" id="L114">        String mensajeE = &quot;Porcentaje vacunados [70 - 79]: &quot; + cadena;</span>
+<span class="fc" id="L115">        cadena = vacunadosF+&quot;&quot;;</span>
+<span class="fc" id="L116">        String mensajeF = &quot;Porcentaje vacunados de 80 a más: &quot; + cadena;</span>
+
+<span class="fc" id="L118">        logger.info(mensajeA);</span>
+<span class="fc" id="L119">        logger.info(mensajeB);</span>
+<span class="fc" id="L120">        logger.info(mensajeC);</span>
+<span class="fc" id="L121">        logger.info(mensajeD);</span>
+<span class="fc" id="L122">        logger.info(mensajeE);</span>
+<span class="fc" id="L123">        logger.info(mensajeF);</span>
+<span class="fc" id="L124">    }</span>
+
     public void clear(){
-<span class="fc" id="L88">        centrosDeAlta.clear();</span>
-<span class="fc" id="L89">        centroDeBaja.clear();</span>
-<span class="fc" id="L90">    }</span>
+<span class="fc" id="L127">        centrosDeAlta.clear();</span>
+<span class="fc" id="L128">        centroDeBaja.clear();</span>
+<span class="fc" id="L129">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

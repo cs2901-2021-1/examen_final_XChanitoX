@@ -21,8 +21,8 @@ public class CentroVacunacion {
 
     public int cantidadVacunadosParciales(){
 <span class="fc" id="L23">        int cantidadVacunadosParciales = 0;</span>
-<span class="fc bfc" id="L24" title="All 2 branches covered.">        for (Vacunado ciudadano : listaVacunados){</span>
-<span class="pc bpc" id="L25" title="1 of 2 branches missed.">            if (ciudadano.cantidadDosis() == 1)</span>
+<span class="fc bfc" id="L24" title="All 2 branches covered.">        for (Vacunado vacunado : listaVacunados){</span>
+<span class="pc bpc" id="L25" title="1 of 2 branches missed.">            if (vacunado.cantidadDosis() == 1)</span>
 <span class="fc" id="L26">                cantidadVacunadosParciales++;</span>
 <span class="fc" id="L27">        }</span>
 <span class="fc" id="L28">        return cantidadVacunadosParciales;</span>
@@ -30,15 +30,75 @@ public class CentroVacunacion {
 
     public int cantidadVacunadosCompletamente(){
 <span class="fc" id="L32">        int cantidadVacunadosCompletamente = 0;</span>
-<span class="fc bfc" id="L33" title="All 2 branches covered.">        for (Vacunado ciudadano : listaVacunados){</span>
-<span class="pc bpc" id="L34" title="1 of 2 branches missed.">            if (ciudadano.cantidadDosis() == 2)</span>
+<span class="fc bfc" id="L33" title="All 2 branches covered.">        for (Vacunado vacunado : listaVacunados){</span>
+<span class="pc bpc" id="L34" title="1 of 2 branches missed.">            if (vacunado.cantidadDosis() == 2)</span>
 <span class="fc" id="L35">                cantidadVacunadosCompletamente++;</span>
 <span class="fc" id="L36">        }</span>
 <span class="fc" id="L37">        return cantidadVacunadosCompletamente;</span>
     }
 
+    public int cantidadVacunadosA(){
+<span class="fc" id="L41">        int cantidadVacuandos = 0;</span>
+<span class="pc bpc" id="L42" title="1 of 2 branches missed.">        for (Vacunado vacunado : listaVacunados){</span>
+<span class="nc bnc" id="L43" title="All 4 branches missed.">            if (vacunado.getEdad() &gt;= 18 &amp;&amp; vacunado.getEdad() &lt;= 39){</span>
+<span class="nc" id="L44">                cantidadVacuandos++;</span>
+            }
+<span class="nc" id="L46">        }</span>
+<span class="fc" id="L47">        return cantidadVacuandos;</span>
+    }
+
+    public int cantidadVacunadosB(){
+<span class="fc" id="L51">        int cantidadVacuandos = 0;</span>
+<span class="pc bpc" id="L52" title="1 of 2 branches missed.">        for (Vacunado vacunado : listaVacunados){</span>
+<span class="nc bnc" id="L53" title="All 4 branches missed.">            if (vacunado.getEdad() &gt;= 40 &amp;&amp; vacunado.getEdad() &lt;= 49){</span>
+<span class="nc" id="L54">                cantidadVacuandos++;</span>
+            }
+<span class="nc" id="L56">        }</span>
+<span class="fc" id="L57">        return cantidadVacuandos;</span>
+    }
+
+    public int cantidadVacunadosC(){
+<span class="fc" id="L61">        int cantidadVacuandos = 0;</span>
+<span class="pc bpc" id="L62" title="1 of 2 branches missed.">        for (Vacunado vacunado : listaVacunados){</span>
+<span class="nc bnc" id="L63" title="All 4 branches missed.">            if (vacunado.getEdad() &gt;= 50 &amp;&amp; vacunado.getEdad() &lt;= 59){</span>
+<span class="nc" id="L64">                cantidadVacuandos++;</span>
+            }
+<span class="nc" id="L66">        }</span>
+<span class="fc" id="L67">        return cantidadVacuandos;</span>
+    }
+
+    public int cantidadVacunadosD(){
+<span class="fc" id="L71">        int cantidadVacuandos = 0;</span>
+<span class="pc bpc" id="L72" title="1 of 2 branches missed.">        for (Vacunado vacunado : listaVacunados){</span>
+<span class="nc bnc" id="L73" title="All 4 branches missed.">            if (vacunado.getEdad() &gt;= 60 &amp;&amp; vacunado.getEdad() &lt;= 69){</span>
+<span class="nc" id="L74">                cantidadVacuandos++;</span>
+            }
+<span class="nc" id="L76">        }</span>
+<span class="fc" id="L77">        return cantidadVacuandos;</span>
+    }
+
+    public int cantidadVacunadosE(){
+<span class="fc" id="L81">        int cantidadVacuandos = 0;</span>
+<span class="pc bpc" id="L82" title="1 of 2 branches missed.">        for (Vacunado vacunado : listaVacunados){</span>
+<span class="nc bnc" id="L83" title="All 4 branches missed.">            if (vacunado.getEdad() &gt;= 70 &amp;&amp; vacunado.getEdad() &lt;= 79){</span>
+<span class="nc" id="L84">                cantidadVacuandos++;</span>
+            }
+<span class="nc" id="L86">        }</span>
+<span class="fc" id="L87">        return cantidadVacuandos;</span>
+    }
+
+    public int cantidadVacunadosF(){
+<span class="fc" id="L91">        int cantidadVacuandos = 0;</span>
+<span class="pc bpc" id="L92" title="1 of 2 branches missed.">        for (Vacunado vacunado : listaVacunados){</span>
+<span class="nc bnc" id="L93" title="All 2 branches missed.">            if (vacunado.getEdad() &gt;= 80){</span>
+<span class="nc" id="L94">                cantidadVacuandos++;</span>
+            }
+<span class="nc" id="L96">        }</span>
+<span class="fc" id="L97">        return cantidadVacuandos;</span>
+    }
+
     public String getNombreCentro(){
-<span class="fc" id="L41">        return nombre;</span>
+<span class="fc" id="L101">        return nombre;</span>
     }
 
 }

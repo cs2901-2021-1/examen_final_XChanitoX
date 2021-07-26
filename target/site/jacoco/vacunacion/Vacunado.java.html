@@ -3,17 +3,23 @@
 public class Vacunado {
 
     private int dosis;
+    private int edad;
 
-<span class="fc" id="L7">    public Vacunado(){</span>
-<span class="fc" id="L8">        this.dosis = 1;</span>
-<span class="fc" id="L9">    }</span>
+<span class="fc" id="L8">    public Vacunado(int edad){</span>
+<span class="fc" id="L9">        this.dosis = 1;</span>
+<span class="fc" id="L10">        this.edad = edad;</span>
+<span class="fc" id="L11">    }</span>
+
+    public int getEdad(){
+<span class="nc" id="L14">        return edad;</span>
+    }
 
     public void segundaDosis(){
-<span class="fc" id="L12">        dosis = 2;</span>
-<span class="fc" id="L13">    }</span>
+<span class="fc" id="L18">        dosis = 2;</span>
+<span class="fc" id="L19">    }</span>
 
     public int cantidadDosis(){
-<span class="fc" id="L16">        return dosis;</span>
+<span class="fc" id="L22">        return dosis;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

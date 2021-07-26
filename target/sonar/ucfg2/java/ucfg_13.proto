@@ -1,48 +1,52 @@
 
-Nvacunacion.AplicativoVacunacion#getInstance()Lvacunacion/AplicativoVacunacion;Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java' (2"3*¿
-2Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java (1‘—
-Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java (/%
-%1vacunacion.AplicativoVacunacion"vacunacion.AplicativoVacunacionÊ
-„
-Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java (1
-%2")vacunacion.AplicativoVacunacion#<init>()V*'
-%
-%1vacunacion.AplicativoVacunacionÏ
-È
-Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java (1/!
-vacunacion.AplicativoVacunacion"
-
-instance"__id*'
-%
-%1vacunacion.AplicativoVacunacion*
-1*É
-3Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java (Ï
-È
-Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java (%
-%0vacunacion.AplicativoVacunacion"__id*1*/!
-vacunacion.AplicativoVacunacion"
-
-instance*
+1vacunacion.CentroVacunacion#cantidadVacunadosB()IÇ
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.java2 2(!"6*¢
+2Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.java4 4(∑
+¥
+Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.java4 4(
+vacunadovacunacion.Vacunado"__id*
+""’
+“
+Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.java4 4(
+vacunadovacunacion.Vacunado"
+__arrayGet*
+
+%0java.util.List*
+""*
+5
+1*Ò
+4Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.java5, 5(4·ﬁ
+Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.java5, 5(>	
+%2int"vacunacion.Vacunado#getEdad()I*!
+
+vacunadovacunacion.Vacunado2	getEdad()*
+2*Ù
+5Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.java5 5(·ﬁ
+Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.java5 5("	
+%1int"vacunacion.Vacunado#getEdad()I*!
+
+vacunadovacunacion.Vacunado2	getEdad()*
 2
-1*∞
-1Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java (Ï
-È
-Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java (%
-%3vacunacion.AplicativoVacunacion"__id*1*/!
-vacunacion.AplicativoVacunacion"
-
-instance"≤
-Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java ('
-%
-%3vacunacion.AplicativoVacunacionB#"!
-vacunacion.AplicativoVacunacion
+4*È
+6Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.java4! 4(/Ÿ
+÷
+Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.java4! 4(/
+%0java.util.List"__id*3*1
+vacunacion.CentroVacunacion"
+listaVacunados*
+2*ò
+1Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.java9 9( "ç
+Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.java9 9(!
+""B
+vacunacion.CentroVacunacion

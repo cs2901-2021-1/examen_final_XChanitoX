@@ -10,7 +10,7 @@ import java.util.logging.Logger;
 public class VacunadoTest {
     @Test
     public void vacunarse(){
-        var vacunado = new Vacunado();
+        var vacunado = new Vacunado(36);
         vacunado.segundaDosis();
         Assert.assertEquals(vacunado.cantidadDosis(), 2);
     }

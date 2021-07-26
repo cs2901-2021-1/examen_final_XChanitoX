@@ -1,43 +1,52 @@
 
-6vacunacion.AplicativoVacunacion#coberturaVacunacion()DÜ
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java   (%"4*∫
-2Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java$ $($¡
-æ
-Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java$ $($%
-centrovacunacion.CentroVacunacion"__id*
-""ﬂ
-‹
-Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java$ $($%
-centrovacunacion.CentroVacunacion"
+1vacunacion.CentroVacunacion#cantidadVacunadosD()IÇ
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.javaF F(!"6*¢
+2Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.javaH H(∑
+¥
+Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.javaH H(
+vacunadovacunacion.Vacunado"__id*
+""’
+“
+Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.javaH H(
+vacunadovacunacion.Vacunado"
 __arrayGet*
 
 %0java.util.List*
 ""*
-3
-1*µ
-3Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java%2 %(U°û
-Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java%X %(	
-%1int"=vacunacion.CentroVacunacion#cantidadVacunadosCompletamente()I*'
-%
-centrovacunacion.CentroVacunacion2 cantidadVacunadosCompletamente()*
+5
+1*Ò
+4Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.javaI, I(4·ﬁ
+Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.javaI, I(>	
+%2int"vacunacion.Vacunado#getEdad()I*!
+
+vacunadovacunacion.Vacunado2	getEdad()*
 2*Ù
-4Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java$& $(3‡
-›
-Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java$& $(3
-%0java.util.List"__id*6*4!
-vacunacion.AplicativoVacunacion"
-centrosDeAlta*
-2*†
-1Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java(( ((K"ë
-Ü
-|C:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/AplicativoVacunacion.java* *(,
-""B#!
-vacunacion.AplicativoVacunacion
+5Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.javaI I(·ﬁ
+Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.javaI I("	
+%1int"vacunacion.Vacunado#getEdad()I*!
+
+vacunadovacunacion.Vacunado2	getEdad()*
+2
+4*È
+6Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.javaH! H(/Ÿ
+÷
+Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.javaH! H(/
+%0java.util.List"__id*3*1
+vacunacion.CentroVacunacion"
+listaVacunados*
+2*ò
+1Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.javaM M( "ç
+Ç
+xC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/CentroVacunacion.javaM M(!
+""B
+vacunacion.CentroVacunacion
