@@ -11,9 +11,12 @@ public class CentroVacunacion {
         this.nombre = nombre;
     }
 
-
     public int cantidadVacunados(){
         return listaVacunados.size();
+    }
+
+    public void agregarVacunado(Vacunado vacunado){
+        listaVacunados.add(vacunado);
     }
 
     public int cantidadVacunadosParciales(){

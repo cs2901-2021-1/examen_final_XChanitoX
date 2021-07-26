@@ -1,0 +1,5 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+examen_final_XChanitoX,vacunacion,AplicativoVacunacion,0,175,1,9,0,44,1,17,0,13
+examen_final_XChanitoX,vacunacion,Usuario,0,28,0,0,0,8,0,3,0,3
+examen_final_XChanitoX,vacunacion,Vacunado,0,13,0,0,0,6,0,3,0,3
+examen_final_XChanitoX,vacunacion,CentroVacunacion,0,66,2,6,0,20,2,8,0,6

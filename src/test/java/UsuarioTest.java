@@ -1,10 +1,6 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import vacunacion.AplicativoVacunacion;
 import vacunacion.Usuario;
-
-import java.io.IOException;
-import java.util.logging.Logger;
 
 public class UsuarioTest {
 

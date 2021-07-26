@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-26T17:45:18 PET" name="Surefire suite" finished-at="2021-07-26T17:45:18 PET" duration-ms="139">
+    <groups>
+    </groups>
+    <test started-at="2021-07-26T17:45:18 PET" name="Surefire test" finished-at="2021-07-26T17:45:18 PET" duration-ms="139">
+      <class name="VacunadoTest">
+        <test-method signature="vacunarse()[pri:0, instance:VacunadoTest@47fbc56]" started-at="2021-07-26T17:45:18 PET" name="vacunarse" finished-at="2021-07-26T17:45:18 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vacunarse -->
+      </class> <!-- VacunadoTest -->
+      <class name="AplicativoVacunacionTest">
+        <test-method signature="anhadirCentro()[pri:0, instance:AplicativoVacunacionTest@73fc518f]" started-at="2021-07-26T17:45:18 PET" name="anhadirCentro" finished-at="2021-07-26T17:45:18 PET" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anhadirCentro -->
+        <test-method signature="darDeAlta()[pri:0, instance:AplicativoVacunacionTest@73fc518f]" started-at="2021-07-26T17:45:18 PET" name="darDeAlta" finished-at="2021-07-26T17:45:18 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- darDeAlta -->
+        <test-method signature="respuestaReporte()[pri:0, instance:AplicativoVacunacionTest@73fc518f]" started-at="2021-07-26T17:45:18 PET" name="respuestaReporte" finished-at="2021-07-26T17:45:18 PET" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- respuestaReporte -->
+      </class> <!-- AplicativoVacunacionTest -->
+      <class name="UsuarioTest">
+        <test-method signature="cerrarSesion()[pri:0, instance:UsuarioTest@ad9e63e]" started-at="2021-07-26T17:45:18 PET" name="cerrarSesion" finished-at="2021-07-26T17:45:18 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrarSesion -->
+        <test-method signature="login()[pri:0, instance:UsuarioTest@ad9e63e]" started-at="2021-07-26T17:45:18 PET" name="login" finished-at="2021-07-26T17:45:18 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- UsuarioTest -->
+      <class name="CentroVacunacionTest">
+        <test-method signature="agregarVacunado()[pri:0, instance:CentroVacunacionTest@2de50ee4]" started-at="2021-07-26T17:45:18 PET" name="agregarVacunado" finished-at="2021-07-26T17:45:18 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- agregarVacunado -->
+        <test-method signature="cantidadVacunadosCompletamente()[pri:0, instance:CentroVacunacionTest@2de50ee4]" started-at="2021-07-26T17:45:18 PET" name="cantidadVacunadosCompletamente" finished-at="2021-07-26T17:45:18 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cantidadVacunadosCompletamente -->
+        <test-method signature="cantidadVacunadosParciales()[pri:0, instance:CentroVacunacionTest@2de50ee4]" started-at="2021-07-26T17:45:18 PET" name="cantidadVacunadosParciales" finished-at="2021-07-26T17:45:18 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cantidadVacunadosParciales -->
+        <test-method signature="getNombre()[pri:0, instance:CentroVacunacionTest@2de50ee4]" started-at="2021-07-26T17:45:18 PET" name="getNombre" finished-at="2021-07-26T17:45:18 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNombre -->
+      </class> <!-- CentroVacunacionTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

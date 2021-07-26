@@ -1,0 +1,69 @@
+
+#vacunacion.Usuario#iniciarSesion()Zy
+oC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/Usuario.java ( "1*²
+1y
+oC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/Usuario.java2 (=Å
+Â
+y
+oC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/Usuario.java2 (=
+%0java.lang.String"__id*'*%
+vacunacion.Usuario"
+contrasenha¶³
+y
+oC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/Usuario.java$ (1
+%1java.lang.StringBuilder"java.lang.StringBuilderô
+ñ
+y
+oC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/Usuario.java  (>
+%2"3java.lang.StringBuilder#<init>(Ljava/lang/String;)V*
+
+%1java.lang.StringBuilder*
+
+%0java.lang.StringÉ
+Æ
+y
+oC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/Usuario.java (?"
+builderjava.lang.StringBuilder"__id*
+
+%1java.lang.StringBuilderŠ‡
+y
+oC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/Usuario.java ('
+%3java.lang.StringBuilder":java.lang.StringBuilder#reverse()Ljava/lang/StringBuilder;*$
+"
+builderjava.lang.StringBuilder2	reverse()ùö
+y
+oC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/Usuario.java (2
+%4java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*
+
+%3java.lang.StringBuilder2
+toString()Å
+Â
+y
+oC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/Usuario.java (2%
+vacunacion.Usuario"
+contrasenha"__id*
+
+%4java.lang.StringÅ
+Â
+y
+oC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/Usuario.java (
+%5java.lang.String"__id*'*%
+vacunacion.Usuario"
+contrasenhaÀ
+½
+y
+oC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/Usuario.java" ((
+%6java.lang.String"__id*"* 
+vacunacion.Usuario"
+nombre‹ˆ
+y
+oC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/Usuario.java ()
+%7boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%5java.lang.String*
+
+%6java.lang.String2equals(Ljava/lang/Object;)"ƒ
+y
+oC:/Users/usuario/Desktop/2021-1/IngenieriaSoftware/examen_final_XChanitoX/src/main/java/vacunacion/Usuario.java (*
+""B
+vacunacion.Usuario

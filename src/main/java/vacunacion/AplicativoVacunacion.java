@@ -1,13 +1,12 @@
 package vacunacion;
 
-import java.util.Scanner;
 import java.util.logging.Logger;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
 
 public class AplicativoVacunacion{
-    private List<CentroVacunacion> centros = new ArrayList<>();
+    private List<CentroVacunacion> centrosDeAlta = new ArrayList<>();
+    private List<CentroVacunacion> centroDeBaja = new ArrayList<>();
 
     static final Logger logger = Logger.getLogger(AplicativoVacunacion.class.getName());
 
@@ -23,7 +22,7 @@ public class AplicativoVacunacion{
     public double avanceVacunacion(){
         double cantidadTotalVacunados = 0;
         double porcentajeVacunados = 0;
-        for (CentroVacunacion centro: centros){
+        for (CentroVacunacion centro: centrosDeAlta){
             cantidadTotalVacunados = cantidadTotalVacunados + centro.cantidadVacunados();
         }
         porcentajeVacunados = (cantidadTotalVacunados / 22935533)*100;
@@ -34,7 +33,7 @@ public class AplicativoVacunacion{
         double cantidadTotalVacunadosCompletamente = 0;
         double porcentajeVacunadosParciales = 0;
 
-        for (CentroVacunacion centro: centros){
+        for (CentroVacunacion centro: centrosDeAlta){
             cantidadTotalVacunadosCompletamente = cantidadTotalVacunadosCompletamente + centro.cantidadVacunadosCompletamente();
         }
 
@@ -44,13 +43,13 @@ public class AplicativoVacunacion{
     }
 
     public int numeroCentros(){
-        return centros.size();
+        return centrosDeAlta.size() + centroDeBaja.size();
     }
 
     public int cantidadVacunadosParcialmente(){
         int cantidadTotalVacunadosParciales = 0;
 
-        for (CentroVacunacion centro: centros){
+        for (CentroVacunacion centro: centrosDeAlta){
             cantidadTotalVacunadosParciales = cantidadTotalVacunadosParciales + centro.cantidadVacunadosParciales();
         }
 
@@ -60,42 +59,33 @@ public class AplicativoVacunacion{
     public int cantidadVacunadosCompletamente(){
         int cantidadTotalVacunadosCompletamente = 0;
 
-        for (CentroVacunacion centro: centros){
+        for (CentroVacunacion centro: centrosDeAlta){
             cantidadTotalVacunadosCompletamente = cantidadTotalVacunadosCompletamente + centro.cantidadVacunadosCompletamente();
         }
 
         return cantidadTotalVacunadosCompletamente;
     }
 
+    public void anhadirCentro(CentroVacunacion nuevoCentro){
+        this.centroDeBaja.add(nuevoCentro);
+    }
+
     public void darDeAlta(CentroVacunacion centro){
-        this.centros.add(centro);
+        this.centrosDeAlta.add(centro);
+        this.centroDeBaja.remove(centro);
     }
 
     public void darDeBaja(CentroVacunacion centro){
-        this.centros.remove(centro);
+        this.centroDeBaja.add(centro);
+        this.centrosDeAlta.remove(centro);
     }
 
-    /*
-    public static void main(String[] args){
-        var entradaEscaner = new Scanner(System.in);
-
-        logger.info("Ingrese su contraseña: ");
-
-        var usuario = entradaEscaner.nextLine();
-        var contrasenha = entradaEscaner.nextLine();
-
-        Usuario usuario1 = new Usuario(usuario, contrasenha);
-
-        if (usuario1.verificarUsuario()){
-
-        }
-    }*/
-
-    public List<CentroVacunacion> obtenerCentros() {
-        return centros;
+    public int numeroCentrosDeAlta(){
+        return centrosDeAlta.size();
     }
 
     public void clear(){
-        centros.clear();
+        centrosDeAlta.clear();
+        centroDeBaja.clear();
     }
 }

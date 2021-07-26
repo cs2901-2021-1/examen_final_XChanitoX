@@ -8,8 +8,8 @@ public class Vacunado {
         this.dosis = 1;
     }
 
-    public void vacunarse(){
-        dosis++;
+    public void segundaDosis(){
+        dosis = 2;
     }
 
     public int cantidadDosis(){
